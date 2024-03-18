@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <nav>
+          <h1 class="logo"><span>R</span>AVI</h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="##certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark ham" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars ham" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <p><span class="auto-input"></span></p>
+          <h1>
+            Hi, I'm <span>Ravi</span><br />
+            Ighare from Pune
+          </h1>
+          <a href="Ravi Ighare.pdf" download="" class="btn btn2 header-btn"
+            >Download CV</a
+          >
+          <a href="#contact" class="btn btn2 header-btn">Contact me</a>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------- About --------------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col1">
+            <img src="ravi.jpg" />
+          </div>
+          <div class="about-col2">
+            <h1 class="sub-title">About me</h1>
+            <p class="description">
+              "Hello, I'm Ravi. I initially Developed into backend development,
+              mastering core Java, Servlets, and JDBC. However, my passion truly
+              ignited in 2023 when I embraced frontend development. I'm deeply
+              dedicated to creating captivating web experiences with HTML, CSS,
+              JavaScript, React JS , Node js , Express Js , MongoDB. Let's
+              connect and make your web ideas a reality!"
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing web app interfaces</li>
+                <li><span>Web Developmnet</span><br />Web app development</li>
+                <li>
+                  <span>Backend development</span><br />Server side web
+                  development
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Full Stack Web Development 2022-2023</span><br />at
+                  Giri's Tech Hub Pune
+                </li>
+                <li><span>Currently</span><br />I'm a fresher</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>BCA &lbbrk;Computer Scince&rbbrk; 2018-2021</span
+                  ><br />ANKUSHRAO TOPE COLLEGE, JALNA
+                </li>
+                <li>
+                  <span>HSC &rbbrk; 2015-2017</span><br />LBS COLLEGE, PARTUR
+                </li>
+                <li>
+                  <span>SSC &rbbrk; 2014-2015</span><br />SB HIGH SCHOOL, RANJNI
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------ Projects ------------------------- -->
+    <div id="project">
+      <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="projects-list">
+          <div>
+            <i class="fa-solid fa-clipboard-list"></i>
+            <h2>TODO List using React JS</h2>
+            <p>Task management app using React JS for organization.</p>
+            <a href="https://raviighare.github.io/to-do-list/" target="_blank"
+              >Website ></a
+            >
+            &emsp;
+            <a href="https://github.com/raviighare/to-do-list" target="_blank"
+              >Source code</a
+            >
+          </div>
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <h2>Personal Portfolio</h2>
+            <p>
+              Designed personal portfolio with the help of HTML, CSS, JavaScript
+            </p>
+            <a href="https://raviighare.github.io/portfolio" target="_blank"
+              >Website ></a
+            >
+            &emsp;
+            <a href="https://github.com/raviighare/portfolio" target="_blank"
+              >Source code</a
+            >
+          </div>
+
+          <div>
+            <i class="fa-solid fa-calculator"></i>
+            <h2>Calculator</h2>
+            <p>
+              Designed to perform basic arithmetic operations with HTML, CSS,
+              and JavaScript
+            </p>
+            <a href="https://raviighare.github.io/calculator/" target="_blank"
+              >Website ></a
+            >
+            &emsp;
+            <a href="https://github.com/raviighare/Calculator" target="_blank"
+              >Source code</a
+            >
+          </div>
+          <div>
+            <i class="fa-solid fa-laptop"></i>
+            <h2>CRUD Operations</h2>
+            <p>
+              Developed dynamic web app with Java, JDBC, Servlets, HTML, CSS,
+              and MySQL.
+            </p>
+            <a href="#project" onclick="alert('uploaded soon...')">Website ></a>
+          </div>
+          <div>
+            <i class="fa-solid fa-clock"></i>
+            <h2>Clock</h2>
+            <p>Designed to perform clock show the time using html css</p>
+            <a href="https://raviighare.github.io/clcok/" target="_blank"
+              >Website ></a
+            >
+            &emsp;
+            <a href="https://github.com/raviighare/clock" target="_blank"
+              >Source code</a
+            >
+          </div>
+
+          <div>
+            <i class="fa-solid fa-clipboard-list"></i>
+            <h2>Ecommerce</h2>
+            <p>
+              Designed to online shopping ecommerce application using html css
+              javascript
+            </p>
+            <a href="https://raviighare.github.io/ecommerce/" target="_blank"
+              >Website ></a
+            >
+            &emsp;
+            <a href="https://github.com/raviighare/ecommerce" target="_blank"
+              >Source code</a
+            >
+          </div>
+
+          <div>
+            <i class="fa-solid fa-calculator"></i>
+            <h2>AgeCalculator</h2>
+            <p>Designed to calculate the AGE with HTML, CSS, and JavaScript</p>
+            <a
+              href=" https://raviighare.github.io/agecalculator/"
+              target="_blank"
+              >Website ></a
+            >
+            &emsp;
+            <a
+              href="https://github.com/raviighare/agecalculator"
+              target="_blank"
+              >Source code</a
+            >
+          </div>
+
+          <div>
+            <!-- <i class="fa-solid fa-cart"></i> -->
+            <i class="fa-solid fa-laptop"></i>
+            <h2>icoder</h2>
+            <p>Designed to icoder application using bootstrap</p>
+            <a href=" https://raviighare.github.io/icoder/" target="_blank"
+              >Website ></a
+            >
+            &emsp;
+            <a href="https://github.com/raviighare/icoder" target="_blank"
+              >Source code</a
+            >
+          </div>
+
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <h2>Nspire Technology</h2>
+            <p>
+             Truelayer web Application
+            </p>
+            <a href="https://raviighare.github.io/truelayer/" target="_blank"
+              >Website ></a
+            >
+            &emsp;
+            <a href="https://github.com/raviighare/truelayer" target="_blank"
+              >Source code</a
+            >
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------ #certificates ------------------------ -->
+    <div id="#certificates">
+      <div class="container">
+        <h1 class="sub-title">Certificates</h1>
+        <div class="achievement-list">
+          <div class="achievement">
+            <img
+              src="certificate.jpg"
+              alt="Java Full Stack Development Certificate"
+            />
+            <div class="layer">
+              <h3>Java Full Stack Development Certification</h3>
+              <p>Certified for proficiency in Java Full Stack Technology</p>
+            </div>
+          </div>
+          <div class="achievement">
+            <img src="html certificate.jpg" alt="" />
+            <div class="layer">
+              <h3>Html certificate</h3>
+              <p>
+                Certified for proficiency in creating responsive web designs and
+                user interfaces.
+              </p>
+            </div>
+          </div>
+          <div class="achievement">
+            <img src="php certificate.jpg" alt="" />
+            <div class="layer">
+              <h3>PHP certificate</h3>
+              <p>web developer certificate</p>
+            </div>
+          </div>
+         
+        </div>
+        <a href="#Certificates" class="btn" onclick="alert('updated soon...')"
+          >See more</a
+        >
+      </div>
+    </div>
+    <!-- ----------------- Contact ----------------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title contact-me">Contact me</h1>
+            <p><i class="fa-solid fa-envelope"></i> raviighare0404@gmail.com</p>
+            <p>
+              <i class="fa-solid fa-mobile-screen-button"></i> +91 880 621 3878
+            </p>
+
+            <div class="social-icons">
+              <a href="https://www.naukri.com/mnjuser/homepage" target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+
+              <a href="https://github.com/raviighare" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+
+              <a href="https://t.me/raviighare" target="_blank"
+                ><i class="fa-brands fa-square-x-twitter"></i
+              ></a>
+            </div>
+            <a href="Ravi Ighare.pdf" download="" class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input
+                type="text"
+                name="Name"
+                placeholder="Your name"
+                autocomplete="off"
+                required
+              />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your email"
+                required
+              />
+              <textarea
+                name="Message"
+                placeholder="Your Message"
+                rows="6"
+                style="resize: none"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright &copy; Ravi Ighare.
+          <i class="fa-solid fa-heart"></i> Portfolio 2024
+        </p>
+      </div>
+    </div>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzg2YV1iG2IRROZ2l2XwwMljpgj32mYafAUwGIuXfy1aQoXWzwCFBqqqkB8GfWxAS-t/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+
+    <!-- Auto Type writing -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".auto-input", {
+        strings: [
+          "UI Full Stack Developer",
+          "Frontend Developer",
+          "Backend Developer",
+        ],
+        typeSpeed: 40,
+        backSpeed: 20,
+        loop: true,
+      });
+    </script>
+
+    <script
+      src="https://kit.fontawesome.com/37df75b44e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
